@@ -1,0 +1,54 @@
+<!doctype html><html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mon Entreprise">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png">
+<title>Mon Entreprise</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f7f9fc;color:#102a56;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:760px;margin:auto;padding:18px 14px 42px}header{text-align:center;margin:4px 0 20px}
+.logo{width:116px;height:116px;object-fit:cover;border-radius:28px;box-shadow:0 8px 24px #173c7018}
+h1{margin:8px 0 2px;font-size:26px;letter-spacing:.5px}header p{margin:0;color:#667085;font-size:14px}
+.block{padding:15px;border-radius:20px;margin:13px 0;border:1px solid #e5eaf2}
+.block h2{margin:0 0 12px;font-size:17px;display:flex;gap:8px;align-items:center}
+.day{background:#edf5ff}.leave{background:#eff9f0}.pay{background:#fff5e9}.training{background:#f5efff}.other{background:#fff0f6}
+.apps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.app{border:0;background:white;border-radius:15px;padding:11px;text-align:left;display:flex;align-items:center;gap:10px;min-height:70px;box-shadow:0 3px 12px #102a5612;color:#102a56}
+.appicon{width:46px;height:46px;border-radius:12px;overflow:hidden;display:grid;place-items:center;flex:none;background:#eef3fa}
+.appicon img{width:100%;height:100%;object-fit:cover}.letter{font-size:22px;font-weight:800}
+.app b{display:block;font-size:14px}.app small{display:block;color:#7a8596;margin-top:3px}
+#toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#102a56;color:#fff;padding:12px 16px;border-radius:13px;max-width:88%;display:none;text-align:center;font-size:14px}
+footer{text-align:center;color:#98a2b3;font-size:12px;margin-top:22px}
+@media(min-width:600px){.apps{grid-template-columns:repeat(4,1fr)}}
+</style></head><body><main>
+<header><img class="logo" src="logo-mon-entreprise.jpg" alt="Mon Entreprise"><h1>MON ENTREPRISE</h1><p>Tous vos outils, au même endroit</p></header>
+<section class="block day"><h2><span>🚑</span>Ma journée</h2><div class="apps"><button class="app" data-name="Saphir V3" data-ios="" data-android="https://play.google.com/store/apps/details?id=fr.synovo.saphir.saphir_mobile&hl=fr">
+          <span class="appicon"><img src="saphir.jpg" alt=""></span><span><b>Saphir V3</b><small>Ouvrir</small></span>
+        </button><button class="app" data-name="LUMINIZ" data-ios="https://apps.apple.com/fr/app/luminiz/id6503667920" data-android="https://play.google.com/store/apps/details?id=com.luminiz.app">
+          <span class="appicon"><img src="luminiz.jpg" alt="LUMINIZ"></span><span><b>LUMINIZ</b><small>Ouvrir</small></span>
+        </button><button class="app" data-name="Waze" data-ios="https://apps.apple.com/fr/app/waze-navigation-trafic/id323229106" data-android="https://play.google.com/store/apps/details?id=com.waze">
+          <span class="appicon"><img src="waze.jpg" alt="Waze"></span><span><b>Waze</b><small>Ouvrir</small></span>
+        </button><button class="app" data-name="Google Maps" data-ios="https://apps.apple.com/fr/app/google-maps/id585027354" data-android="https://play.google.com/store/apps/details?id=com.google.android.apps.maps">
+          <span class="appicon"><img src="maps.jpg" alt="Google Maps"></span><span><b>Google Maps</b><small>Ouvrir</small></span>
+        </button></div></section><section class="block leave"><h2><span>🌴</span>Mes absences</h2><div class="apps"><button class="app" data-name="MySilae" data-ios="https://apps.apple.com/fr/app/mysilae/id1128357646" data-android="https://play.google.com/store/apps/details?id=fr.silae.portailsilae">
+          <span class="appicon"><img src="mysilae.jpg" alt=""></span><span><b>MySilae</b><small>Ouvrir</small></span>
+        </button></div></section><section class="block pay"><h2><span>€</span>Mon salaire</h2><div class="apps"><button class="app" data-name="eDocPerso" data-ios="https://apps.apple.com/fr/app/edocperso/id987390513" data-android="https://play.google.com/store/apps/details?id=io.cordova.eFolia&hl=fr">
+          <span class="appicon"><img src="edocperso.jpg" alt=""></span><span><b>eDocPerso</b><small>Ouvrir</small></span>
+        </button></div></section><section class="block training"><h2><span>🎓</span>Ma formation</h2><div class="apps"><button class="app" data-name="Campus Carius" data-ios="https://apps.apple.com/fr/app/campus-carius/id1483032139" data-android="https://play.google.com/store/apps/details?id=com.sparted.sms">
+          <span class="appicon"><img src="campus.jpg" alt="Campus Carius"></span><span><b>Campus Carius</b><small>Ouvrir</small></span>
+        </button></div></section><section class="block other"><h2><span>＋</span>Autres</h2><div class="apps"><button class="app" data-name="Uni-CE" data-ios="https://apps.apple.com/fr/app/uni-ce/id6736680464" data-android="https://www.uni-ce.com/">
+          <span class="appicon"><img src="unice.jpg" alt="Uni-CE"></span><span><b>Uni-CE</b><small>Ouvrir</small></span>
+        </button></div></section>
+<footer>Portail salarié · Mon Entreprise</footer></main><div id="toast"></div>
+<script>
+const ua=navigator.userAgent||""; const isIOS=/iPad|iPhone|iPod/.test(ua); const isAndroid=/Android/.test(ua);
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.style.display='block';setTimeout(()=>e.style.display='none',2600)}
+document.querySelectorAll('.app').forEach(b=>b.onclick=()=>{
+ const name=b.dataset.name, ios=b.dataset.ios, android=b.dataset.android;
+ if(name==='Saphir V3' && isIOS){toast("Saphir V3 est disponible uniquement sur Android.");return}
+ let url=isIOS?ios:(isAndroid?android:(ios||android));
+ if(!url){toast("Lien non disponible pour cet appareil.");return}
+ location.href=url;
+});
+if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
+</script></body></html>
